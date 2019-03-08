@@ -1,0 +1,54 @@
+/*Fonts
+
+Logo -  Open Sans
+H1 - PT Sans
+P - Source Sans Pro
+Button - Bold Source Sans Pro
+Nav + menu title - Extra light source sans pro
+Under searchbar + menu links - light source sans pro
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+*/
+
+html, body{
+	height: 100%;
+	margin: 0;
+}
+
+#hero{
+	display: flex;
+  height: 100vh;
+  margin: 0;
+	background-color: cornflowerblue;
+}
+
+#second{
+	display: flex;
+  height: 90vh;
+  margin: 0;
+	background-color: red;
+}
+
+#third{
+	display: flex;
+  height: 90vh;
+  margin: 0;
+	background-color: green;
+}
+
+#fourth{
+	display: flex;
+  height: 90vh;
+  margin: 0;
+	background-color: yellow;
+}
+
+#fifth{
+	display: flex;
+  height: 100vh;
+  margin: 0;
+	background-color: orange;
+}
