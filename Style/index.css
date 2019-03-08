@@ -39,11 +39,38 @@ html, body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	color: darkgrey;
 }
 
 
 #topnav i:hover{
 	cursor: pointer;
+}
+
+#hero h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 35px;
+	color: #444;
+	font-weight: 300;
+}
+
+#herotext{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 19px;
+}
+
+#herotext a{
+	color: blue;
+	text-decoration: none;
+}
+
+#herotext a:hover{
+	text-decoration: underline;
+}
+
+#herotext:visited{
+	color: blue;
 }
 
 #menu i{
@@ -52,13 +79,16 @@ html, body{
 	align-items: center;
 	height: 30px;
 	width: 30px;
+	border-radius: 5px;
 	/*background-color: yellow;
 	color: pink;*/
 }
 
 #menu i:hover{
-	background-color: red;
-	color: blue;
+	animation: all;
+	transition: 0.2s;
+	background-color: darkgrey;
+	color: white;
 }
 
 #tw:hover{
@@ -71,9 +101,15 @@ html, body{
 	cursor: pointer;
 }
 
+#privacy{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+	font-size: 15px;
+}
+
 #privacy:hover{
 	cursor: pointer;
-	color: teal;
+	color: grey;
 }
 
 main{
@@ -86,7 +122,7 @@ main{
   margin: 0;
   justify-content: center;
 	align-items: center;
-	background-color: cornflowerblue;
+	background-color:#F7F7F7;
 	flex-direction: column;
 }
 
@@ -100,6 +136,9 @@ main{
 	max-width: 600px;
 	display: flex;
 	flex-direction: row;
+	border: 1px solid darkgrey;
+	border-radius: 5px;
+	box-shadow: 0px 2px 0px darkgrey;
 	
 }
 
@@ -109,6 +148,7 @@ input{
 	border-radius: 5px 0px 0px 5px;
 	border: solid 1px white;
 	padding-left: 20px;
+	outline: none;
 
 }
 
@@ -123,6 +163,7 @@ input::-webkit-search-cancel-button{
 #mag{
 	position: relative;
 	right: 1px;
+	color: darkgrey;
 	background-color: white;
 	margin: auto;
 	padding: 6px 4px 5px 9px;
@@ -132,6 +173,7 @@ input::-webkit-search-cancel-button{
 #mag:hover{
 	background-color: green;
 	color: white;
+	cursor: pointer;
 }	
 
 #herotext{
@@ -181,7 +223,7 @@ input::-webkit-search-cancel-button{
 
 .sectionfont{
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	text-align: center;
 
 }
@@ -216,7 +258,7 @@ input::-webkit-search-cancel-button{
 
 .imgscale{
 	width: 100%;
-	height: 200px;
+	height: 250px;
 
 }
 
@@ -232,7 +274,8 @@ input::-webkit-search-cancel-button{
 	display: flex;
   height: 90vh;
   margin: 0;
-	background-color: red;
+  color: white;
+	background-color: #58B792;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
@@ -244,7 +287,8 @@ input::-webkit-search-cancel-button{
 	display: flex;
   height: 90vh;
   margin: 0;
-	background-color: green;
+  color: white;
+	background-color: #F5A339;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
@@ -255,7 +299,8 @@ input::-webkit-search-cancel-button{
 	display: flex;
   height: 90vh;
   margin: 0;
-	background-color: yellow;
+  color: white;
+	background-color: #5F63BD;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
@@ -266,9 +311,39 @@ input::-webkit-search-cancel-button{
 	display: flex;
   height: 100vh;
   margin: 0;
-	background-color: orange;
+  color: #365374;
+	background-color: #87CEF5;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
 	
+}
+
+#morelinks{
+	position: absolute;
+	right: 20px;
+	color: #365374;
+	padding: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#morelinks a:visited{
+	color: #365374;
+}
+
+#link1{
+	text-decoration: none;
+}
+
+#link1:hover{
+	text-decoration: underline;
+}
+
+#link2{
+	text-decoration: none;
+	font-weight: 600;
+}
+
+#link2:hover{
+	text-decoration: underline;
 }
