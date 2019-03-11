@@ -11,10 +11,6 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'PT Sans', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
 ------------------------
-Colors
-
-
-
 
 */
 
@@ -239,6 +235,21 @@ input::-webkit-search-cancel-button{
 	background-color: blue;
 	padding: 10px 20px;
 	
+}
+
+#menuitems{
+	position: fixed;
+	right: -5px;
+	top: -20px;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: left;
+	width: 200px;
+	padding: 10px;
+	padding-top: 30px;
+	max-height: 100vh;
+	background-color: indianred;
+	overflow-y: scroll;
 }
 
 /*----------------------------------*/

@@ -5,3 +5,7 @@ $("#privacy").click(function(){
 $("#social").click(function(){
   $("#socialthings").toggle();
 });
+
+$("#menu").click(function(){
+  $("#menuitems").toggle();
+});
