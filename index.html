@@ -14,95 +14,116 @@
 
 	<header>
 	<nav id="topnav"><!-- all of nav should float right or positoned right -->
-		<div id="privacy" onclick=""><p>Privacy, simplified</p>&nbsp&nbsp<i class="fas fa-angle-down"></i></div><!-- hide privacy in table mode/phone -->
-		<div id="pridiv">
-			<div id="primary">
-				<div>
-					<img src="">
-					<p class="primain">Get Our App &amp Extentions</p>
-					<p class="prisub"></p>
-				</div>
+		<div id="privacy"><p>Privacy, simplified</p>&nbsp&nbsp<i class="fas fa-angle-down"></i></div><!-- hide privacy in table mode/phone -->
 
-				<div>
-					<img src="">
-					<p class="primain">Subcribe to our Privacy Crash Course</p>
-					<p class="prisub"></p>
-				</div>
+		<div id="twitter"><i id="tw" class="fab fa-twitter fa-lg"></i>&nbsp&nbsp<i onclick="" id="social" class="fas fa-angle-down"></i></div>
+		
 
-				<div>
-					<img src="">
-					<p class="primain">Protect Your Devices</p>
-					<p class="prisub"></p>
-				</div>
-
-				<div>
-					<img src="">
-					<p class="primain">Spread DuckDuckGo</p>
-					<p class="prisub"></p>
-				</div>
-				
-			</div>
-			<div id="secondary">
-				<div>
-					<img src="">
-					<p>&#36;1,300,000 in privacy donations!</p>
-				</div>
-
-				<div>
-					<img src="">
-					<p> Over 22 Billion anonymous searches.</p>
-				</div>
-
-				<div>
-					<img src="">
-					<p> Learn why reducing tracking is important.</p>
-				</div>
-			</div>
-		</div>
-
-		<div id="twitter"><i onclick="" id="tw" class="fab fa-twitter fa-lg"></i>&nbsp&nbsp<i onclick="" id="social" class="fas fa-angle-down"></i></div>
-
-		<div id="socialthings">
-			<div>Twitter</div>
-			<div>Reddit</div>
-			<div>Blog</div>
-		</div>
-
-		<div id="menu" onclick=""><i class="fas fa-bars"></i></div>
-
-		<div id="menuitems">
-			<div id="closemenu"></div><!-- put an x button -->
-
-			<p class="menutitles">SETTINGS</p>
-			<div id="themes"></div><!-- flex these row-->
-			<p class="menulinks">More Themes</p>
-			<p class="menulinks">Other Settings</p>
-			<p class="menulinks">!Bang Search Shortcuts</p>
-
-			<p class="menutitles">PRIVACY ESSENTIALS</p>
-			<p class="menulinks">Private Search</p>
-			<p class="menulinks">App and Extension</p>
-
-			<p class="menutitles">WHY PRIVACY</p>
-			<p class="menulinks">Privacy Blog</p>
-			<p class="menulinks">Privacy Crash Course</p>
-			<p class="menulinks">Help Spread Privacy</p>
-
-			<p class="menutitles">WHO WE ARE</p>
-			<p class="menulinks">About Us</p>
-			<p class="menulinks">Privacy Policy</p>
-			<p class="menulinks">Careers</p>
-			<p class="menulinks">Press Kit</p>
-
-			<p class="menutitles">KEEP IN TOUCH</p>
-			<p class="menulinks">Twitter</p>
-			<p class="menulinks">Reddit</p>
-			<p class="menulinks">Help</p>
-
-		</div>
+		<div id="menu"><i class="fas fa-bars"></i></div>
+		
 
 	</nav>
 	</header>
+
+	<div id="none1" style="display:none">
+
+			
+				<div class="prihover">
+				<img class="priimg" src="Images/header/woman-icon.svg">
+				<a href="#" class="primain">Get Our App &amp Extentions</a>
+				<p class="prisub">Protect your data on every device.</p>
+				</div>
+
+				<div class="prihover">
+				<img class="priimg" src="Images/header/newsletter.svg">
+				<a href="#" class="primain">Subcribe to our Privacy Crash Course</a>
+				<p class="prisub">Learn about online privacy righ in your inbox.</p>
+				</div>
+
+				<div class="prihover">
+				<img class="priimg" src="Images/header/privacy-simplified.svg">
+				<a href="#" class="primain">Protect Your Devices</a>
+				<p class="prisub">Check out our privacy device guides.</p>
+				</div>
+				
+				<div class="prihover">
+				<img class="priimg" src="Images/header/spread-word.svg">
+				<a href="#" class="primain">Spread DuckDuckGo</a>
+				<p class="prisub">Help your friends and family join the Duck Side!</p>
+				</div>
+				
+				<div id="secdiv">
+						<div>
+						<img class="secimg" src="Images/header/donations.svg">
+						<a href="#" class="seca">&#36;1,300,000 in privacy donations!</a>
+						</div>
+		
+						<div>
+						<img class="secimg" src="Images/header/traffic.svg">
+						<a href="#" class="seca"> Over 22 Billion anonymous searches.</a>
+						</div>
+		
+						<div>
+						<img class="secimg" src="Images/header/privacy-tips.svg">
+						<a href="#" class="seca"> Learn why reducing tracking is important.</a>
+						</div>
+				</div>
+			
+		</div>
+
+		<div id="none2" style="display:none">
+			
+				<div>
+					<img src="Images/header/twitter-blue.png">
+					<a href="">Twitter</a>
+				</div>
+				<div>
+					<img src="Images/header/reddit-icon.png">
+					<a href="">Reddit</a>
+				</div>
+				<div>
+					<img src="Images/header/blog-icon.png">
+					<a href="">Blog</a>
+				</div>
+			
+		</div>
+
+			<div id="none3" style="display:none">
+		<div id="menuitems">
+
+			<p class="menutitles">SETTINGS <i id="close" class="fas fa-times fa-lg"></i></p>
+
+
+			<p><a href="#" class="menulinks">More Themes</a></p>
+			<p><a href="#" class="menulinks">Other Settings</a></p>
+			<p><a href="#" class="menulinks">!Bang Search Shortcuts</a></p>
+
+			<p class="menutitles">PRIVACY ESSENTIALS</p>
+			<p><a href="#" class="menulinks">Private Search</a></p>
+			<p><a href="#" class="menulinks">App and Extension</a></p>
+
+			<p class="menutitles">WHY PRIVACY</p>
+			<p><a href="#" class="menulinks">Privacy Blog</a></p>
+			<p><a href="#" class="menulinks">Privacy Crash Course</a></p>
+			<p><a href="#" class="menulinks">Help Spread Privacy</a></p>
+
+			<p class="menutitles">WHO WE ARE</p>
+			<p><a href="#" class="menulinks">About Us</a></p>
+			<p><a href="#" class="menulinks">Privacy Policy</a></p>
+			<p><a href="#" class="menulinks">Careers</a></p>
+			<p><a href="#" class="menulinks">Press Kit</a></p>
+
+			<p class="menutitles">KEEP IN TOUCH</p>
+			<p><a href="#" class="menulinks">Twitter</a></p>
+			<p><a href="#" class="menulinks">Reddit</a></p>
+			<p><a href="#" class="menulinks">Help</a></p>
+
+		</div>
+		</div>
+
+
+
+
 
 	<main>
 		<div id="hero">
@@ -111,16 +132,14 @@
 			<h1><strong>DuckDuckGo</strong></h1>
 			
 			<div id="search">
-				<input type="search" name=""><i id="mag" class="fas fa-search fa-2x"></i>
+				<input type="search" name=""><i id="mag" class="fas fa-search fa-lg"></i>
 			</div>
 			<div id="herotext">
 			<p>The search engine that doesn't track you.</p> &nbsp&nbsp <a href="">Help Spread DuckDuckGo</a>
 			</div>
 
 			<div id="teaser">
-			<img src="Images/teaser.png">
-			<i class="fas fa-arrow-down fa-lg"></i>
-			<div id="blackspace"></div>
+			<img src="Images/trueteaser.PNG">
 			</div>
 		</div><!-- should take up entire screen -->
 

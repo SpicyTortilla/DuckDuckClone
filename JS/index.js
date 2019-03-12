@@ -1,11 +1,20 @@
+$(document).ready(function(){
+
 $("#privacy").click(function(){
-  $("#pridiv").toggle();
+  $("#none1").toggle(70);
 });
 
 $("#social").click(function(){
-  $("#socialthings").toggle();
+  $("#none2").toggle(70);
 });
 
 $("#menu").click(function(){
-  $("#menuitems").toggle();
+  $("#none3").toggle(100);
+});
+
+$("#close").click(function(){
+  $("#none3").toggle(100);
+});
+
+	
 });
