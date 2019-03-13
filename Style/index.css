@@ -56,7 +56,7 @@ html, body{
 }
 
 #herotext a{
-	color: blue;
+	color: cornflowerblue;
 	text-decoration: none;
 }
 
@@ -131,9 +131,9 @@ main{
 	max-width: 600px;
 	display: flex;
 	flex-direction: row;
-	border: 1px solid darkgrey;
+	border: 1px solid #eee;
 	border-radius: 5px;
-	box-shadow: 0px 2px 0px darkgrey;
+	box-shadow: 0px 1px 1px silver;
 	margin: 10px;
 	
 }
@@ -145,6 +145,9 @@ input{
 	border: solid 1px white;
 	padding-left: 20px;
 	outline: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	font-weight: 200;
 
 }
 
@@ -158,16 +161,16 @@ input::-webkit-search-cancel-button{
 
 #mag{
 	position: relative;
-	right: 1px;
+	right: 0px;
 	color: darkgrey;
 	background-color: white;
 	margin: auto;
-	padding: 15px 10px 15px 15px;
+	padding: 15px 15px 15px 15px;
 	border-radius: 0px 5px 5px 0px;
 	}
 
 #mag:hover{
-	background-color: green;
+	background-color: #66AD57;
 	color: white;
 	cursor: pointer;
 }	
@@ -197,6 +200,7 @@ input::-webkit-search-cancel-button{
 	text-align: left;
 	padding: 10px 20px;
 	box-shadow: 0px 0px 20px darkgrey;
+	border-radius: 5px;
 	
 }
 
@@ -287,6 +291,7 @@ input::-webkit-search-cancel-button{
 	background-color: white;
 	padding: 10px 20px;
 	box-shadow: 0px 0px 20px darkgrey;
+	border-radius: 5px;
 }
 
 #none2 img{
@@ -316,9 +321,10 @@ input::-webkit-search-cancel-button{
 	right: -5px;
 	top: -20px;
 	text-align: left;
-	width: 200px;
+	width: 170px;
 	padding: 10px;
 	padding-top: 30px;
+	padding-left: 20px;
 	max-height: 100vh;
 	background-color: white;
 	overflow-y: scroll;
@@ -335,7 +341,7 @@ input::-webkit-search-cancel-button{
 .menulinks{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300px;
-	color: black;
+	color: #333;
 	font-size: 15px;
 	text-decoration: none;
 }
@@ -504,6 +510,10 @@ input::-webkit-search-cancel-button{
 		display: none;
 	}
 
+	#hidethis{
+		display: none;
+	}
+
 	#morelinks{
 		position: inherit;
 		margin-top: 30px;
@@ -527,6 +537,10 @@ input::-webkit-search-cancel-button{
 
 	#herotext{
 		font-size: 16px;
+	}
+
+	#search{
+		width: 60%;
 	}
 }
 
