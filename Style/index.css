@@ -495,3 +495,39 @@ input::-webkit-search-cancel-button{
 #link2:hover{
 	text-decoration: underline;
 }
+
+/*-------------Media queries----------------------*/
+
+
+@media only screen and (max-width: 1024px){
+	.tabhide{
+		display: none;
+	}
+
+	#morelinks{
+		position: inherit;
+		display: ;
+	}
+	
+}
+
+@media only screen and (max-width: 640px){
+	.bigfont{
+		font-size: 22px;
+		margin-top: 50px;
+	}
+
+	.sectionfont{
+		font-size: 15px;
+	}
+
+	#morelinks{
+		margin-top: 50px;
+	}
+
+	#herotext{
+		font-size: 16px;
+	}
+}
+
+
